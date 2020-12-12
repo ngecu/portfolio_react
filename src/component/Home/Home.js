@@ -4,7 +4,9 @@ import './Home.css'
 import axios from 'axios'
 import {Bar} from 'react-chartjs-2';
 import {AiFillGithub,AiFillInstagram,AiFillFacebook,AiFillTwitterCircle,AiFillMail,AiOutlineDownload} from 'react-icons/ai';
-import {FaLinkedinIn} from 'react-icons/fa'
+import {FaLinkedinIn} from 'react-icons/fa';
+import FileSaver from 'file-saver';
+
 // const state = {
 //   labels: ['January', 'February', 'March',
 //            'April', 'May'],
@@ -22,6 +24,12 @@ import {FaLinkedinIn} from 'react-icons/fa'
 
 
 export default class Home extends Component {
+
+   saveFile = () => {
+    FileSaver.saveAs(
+      process.env.REACT_APP_CLIENT_URL + "/resources/resume.pdf",
+      "resume.pdf"
+    );}
 
   componentDidMount(){
     this.fetchAPI()
@@ -181,7 +189,7 @@ axios.get('https://covid19.mathdro.id/api')
         </Row>
       
         <Row className="text-c">
-        <Button variant="warning" size="lg" > <AiOutlineDownload/> Resume</Button>{' '}
+        <Button variant="warning" size="lg" onClick={this.saveFile} >  <AiOutlineDownload/> Resume</Button>{' '}
         </Row>
         </div>
     );
