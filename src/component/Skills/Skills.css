@@ -1,0 +1,61 @@
+/* .skills {
+    color: #A5F9F2;
+} */
+.skills .card{
+    background-color: #141321;
+    border: solid white 0.5px;
+    text-align: center;
+    
+}
+
+.skills .col2 {
+    text-align: center;
+    background-color: #141321;
+    border: solid white 0.5px;
+}
+.skills .col2 p{
+    text-align: center;
+    color: #f13081;
+}
+.skills .frontend img{
+    width: 70px;
+    height:70px;
+}
+.skills .card-text{
+    display: flex;
+}
+.skills .card-title {
+    color: #f13081;
+}
+.skills .card-text img{
+    width: 60px;
+}
+.youtube{
+    margin: 2% 2% 0 1%;
+    padding: 2%;
+    border: solid white 0.5px;
+    background-image: url('https://raw.githubusercontent.com/ngecu/converter_currency/main/src/images/Screenshot_2020-12-12%20Lionel%20Richie%20ft%20Enrique%20Iglesias%20-%20To%20Love%20A%20Woman%20(Official%20Video)(1).png');
+    background-size: cover;
+}
+
+.someProjects{
+    display: flex;
+}
+.someProjects::before {
+    content: "";
+    flex: 1 1 0%;
+    height: 8px;
+    background-color: var(--theme-ui-colors-text,white);
+    margin-right: 1rem;
+    margin-top: 15px;
+    display: inline;
+}
+.someProjects::after {
+    content: "";
+    flex: 1 1 0%;
+    height: 8px;
+    background-color: var(--theme-ui-colors-text,white);
+    margin-left: 1rem;
+    margin-top: 15px;
+    display: inline;
+}

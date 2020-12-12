@@ -1,0 +1,60 @@
+.Logo{
+    border-bottom: #FF9E00 10px solid;margin: 5px;
+    width: 100%;
+}
+p{
+    font-size: 20px;
+    text-align: start;
+}
+
+.row h1{
+    text-align: center;
+    width: 100%;
+}
+
+.img{
+    background-image: url('https://devngecu.herokuapp.com/static/main/img/DSC_1153.JPG');
+    background-size: cover;
+    /* border-radius: 20%; */
+    border-top-left-radius: 30%;
+border-bottom-right-radius: 30%;
+    /* background-color: #46344e;
+    background-blend-mode: screen; */
+}
+span{
+    color: #FDE032;
+}
+.Alias{
+    display: flex;
+}
+.Alias::before {
+    content: "";
+    flex: 1 1 0%;
+    height: 8px;
+    background-color: var(--theme-ui-colors-text,white);
+    margin-right: 1rem;
+    margin-top: 20px;
+    display: inline;
+}
+.Alias::after {
+    content: "";
+    flex: 1 1 0%;
+    height: 8px;
+    background-color: var(--theme-ui-colors-text,white);
+    margin-left: 1rem;
+    margin-top: 20px;
+    display: inline;
+}
+li{
+    list-style: none;
+    padding: 1%;
+}
+li a{
+    color: white;
+}
+.text-c{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}

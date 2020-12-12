@@ -1,0 +1,61 @@
+.projects .card{
+    background-color: #141321;
+    border: solid white 0.5px;
+    text-align: center;
+    border-top-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    transition: transform .2s; /* Animation */
+    
+}
+
+.projects a .card:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+
+.projects .col2 {
+    text-align: center;
+    background-color: #141321;
+    border: solid white 0.5px;
+}
+.projects .col2 p{
+    text-align: center;
+    color: #FDE032;
+}
+.projects .frontend img{
+    width: 70px;
+    height:70px;
+}
+.projects .card-text{
+    display: flex;
+}
+.projects .card-title {
+    color: #FDE032;
+}
+.projects .card-text img{
+    width: 100%;
+    height: 170px;
+    border-top-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+}
+.someProjects{
+    display: flex;
+}
+.someProjects::before {
+    content: "";
+    flex: 1 1 0%;
+    height: 8px;
+    background-color: var(--theme-ui-colors-text,white);
+    margin-right: 1rem;
+    margin-top: 20px;
+    display: inline;
+}
+.someProjects::after {
+    content: "";
+    flex: 1 1 0%;
+    height: 8px;
+    background-color: var(--theme-ui-colors-text,white);
+    margin-left: 1rem;
+    margin-top: 20px;
+    display: inline;
+}
