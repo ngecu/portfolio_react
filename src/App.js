@@ -1,21 +1,13 @@
 import React from "react";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
+import {BrowserRouter as Router,Switch,Route,Link} from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Navbar,Nav} from 'react-bootstrap';
+import {Navbar,Nav,Container} from 'react-bootstrap';
 import './App.css'
-// import {Home,SKills,Projects} from './component'
-import Home from './component/Home/Home.js';
-import Skills from './component/Skills/Skills.js';
-import Projects from './component/Projects/Projects.js';
+import {Home,Skills,Projects} from './components'
 import styled from 'styled-components';
-import {Container} from 'react-bootstrap'
 import './App.css';
 import { AnimatedSwitch } from 'react-router-transition';
+
 export default function App() {
   const Title = styled.h1`
   font-size: 1.5em;
@@ -40,9 +32,6 @@ export default function App() {
     
   </Navbar>
 
-  
-        {/* A <Switch> looks through its children <Route>s and
-            renders the first one that matches the current URL. */}
         <Switch>
           <Container>
         <AnimatedSwitch
@@ -74,16 +63,3 @@ export default function App() {
     </Router>
   );
 }
-
-// function Home() {
-//   return <h2>Home</h2>;
-// }
-
-// function About() {
-//   return <h2>About</h2>;
-// }
-
-// function Users() {
-//   return <h2>Users</h2>;
-// }
-

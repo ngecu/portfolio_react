@@ -34,8 +34,8 @@
     margin: 2% 2% 0 1%;
     padding: 2%;
     border: solid white 0.5px;
-    background-image: url('https://raw.githubusercontent.com/ngecu/converter_currency/main/src/images/Screenshot_2020-12-12%20Lionel%20Richie%20ft%20Enrique%20Iglesias%20-%20To%20Love%20A%20Woman%20(Official%20Video)(1).png');
-    background-size: cover;
+    background-image: url('https://raw.githubusercontent.com/ngecu/ngecu/master/software_innovation1.gif');
+    background-size: contain;
 }
 
 .someProjects{

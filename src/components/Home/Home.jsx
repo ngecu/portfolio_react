@@ -7,20 +7,6 @@ import {AiFillGithub,AiFillInstagram,AiFillFacebook,AiFillTwitterCircle,AiFillMa
 import {FaLinkedinIn} from 'react-icons/fa';
 import FileSaver from 'file-saver';
 
-// const state = {
-//   labels: ['January', 'February', 'March',
-//            'April', 'May'],
-//   datasets: [
-//     {
-//       label: 'Rainfall',
-//       backgroundColor: 'rgba(75,192,192,1)',
-//       borderColor: 'rgba(0,0,0,1)',
-//       borderWidth: 2,
-//       data: [65, 59, 80, 81, 56]
-//     }
-//   ]
-// }
-
 
 
 export default class Home extends Component {
@@ -61,7 +47,7 @@ axios.get('https://covid19.mathdro.id/api')
           <Col sm className="col2">
               <Row>
               <p>
-          Hey there! My name is <span>Robinson Ngecu</span> from the great mother land of Kenya.&#128521;I am a Web Developer currently learning JavaScript and Python.I post videos on 
+          Hey there! <img src="https://raw.githubusercontent.com/ngecu/ngecu/master/hi.gif" alt=""/> My name is <span>Robinson Ngecu</span> from the great mother land of Kenya.&#128521;I am a Web Developer currently learning JavaScript and Python.I post videos on 
         <div class="g-ytsubscribe" data-channelid="UCUEr3z34uxW_3r0ruUxqzkw" data-layout="default" data-count="hidden"></div>
         and code on<a class="github-button" href="https://github.com/ngecu" target="_blank" aria-label="Follow @ngecu on GitHub">Github</a> 
           </p>
@@ -122,7 +108,7 @@ axios.get('https://covid19.mathdro.id/api')
         </Row>
         <Row>
           <p className="text-c">
-          Working as an online editor, I started learning basic HTML and CSS to update the website, but the immense satisfaction I got from figuring out solutions drove me to learn more. I was struck by how many parallels there are between writing code and writing more generally—after all, an errant semicolon is an errant semicolon whether it’s in a line of JavaScript or an essay about Impressionist painting.
+          From very early on in my life, I started to fall in love with technology heart_eyes, I started learning basic HTML and CSS to update the website, but the immense satisfaction I got from figuring out solutions drove me to learn more. I was struck by how many parallels there are between writing code and writing more generally—after all, an errant semicolon is an errant semicolon whether it’s in a line of JavaScript or an essay about Impressionist painting.
           <br/>
           And I always love to chat So go ahead: write me an email, add me on LinkedIn, even peruse my code on Github if you're so inclined.
                     </p>
@@ -190,6 +176,11 @@ axios.get('https://covid19.mathdro.id/api')
       
         <Row className="text-c">
         <Button variant="warning" size="lg" onClick={this.saveFile} >  <AiOutlineDownload/> Resume</Button>{' '}
+        </Row>
+        <Row>
+        Thanks for stopping by.
+        <br/>
+Visit my profile and give a 	&#127775; if you like it
         </Row>
         </div>
     );
