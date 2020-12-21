@@ -6,7 +6,7 @@ import {Bar} from 'react-chartjs-2';
 import {AiFillGithub,AiFillInstagram,AiFillFacebook,AiFillTwitterCircle,AiFillMail,AiOutlineDownload} from 'react-icons/ai';
 import {FaLinkedinIn} from 'react-icons/fa';
 import FileSaver from 'file-saver';
-
+import pdf from './resume.pdf'
 
 
 export default class Home extends Component {
@@ -47,7 +47,7 @@ axios.get('https://covid19.mathdro.id/api')
           <Col sm className="col2">
               <Row>
               <p>
-          Hey there! <img src="https://raw.githubusercontent.com/ngecu/ngecu/master/hi.gif" alt=""/> My name is <span>Robinson Ngecu</span> from the great mother land of Kenya.&#128521;I am a Web Developer currently learning JavaScript and Python.I post videos on 
+          Hey there! <img src="https://raw.githubusercontent.com/ngecu/ngecu/master/hi.gif" width="40" alt=""/> My name is <span>Robinson Ngecu</span> from the great mother land of Kenya.&#128521;I am a Web Developer currently learning JavaScript and Python.I post videos on 
         <div class="g-ytsubscribe" data-channelid="UCUEr3z34uxW_3r0ruUxqzkw" data-layout="default" data-count="hidden"></div>
         and code on<a class="github-button" href="https://github.com/ngecu" target="_blank" aria-label="Follow @ngecu on GitHub">Github</a> 
           </p>
@@ -175,12 +175,13 @@ axios.get('https://covid19.mathdro.id/api')
         </Row>
       
         <Row className="text-c">
-        <Button variant="warning" size="lg" onClick={this.saveFile} >  <AiOutlineDownload/> Resume</Button>{' '}
+        <Button variant="warning" size="lg"> <a href={pdf}><AiOutlineDownload/> Resume</a> </Button>
         </Row>
         <Row>
-        Thanks for stopping by.
-        <br/>
-Visit my profile and give a 	&#127775; if you like it
+        <p className="text-c" style={{width:"100%"}}>
+        Thanks for stopping by.<br/>
+        Visit my profile and give a 	&#127775; if you like it
+                    </p>
         </Row>
         </div>
     );

@@ -21,7 +21,17 @@ export default class Projects extends Component {
       
     <img src="http://devngecu.herokuapp.com/images/covid19Dashborad.png" />
     <div class="overlay">
-    <div class="text">Vanilar JavaScript</div>
+    <div class="text">
+      July, 2020 
+      <br/>
+      <img src="https://www.vectorlogo.zone/logos/javascript/javascript-vertical.svg" alt=""/>
+    <br/>
+    Fetch Concept
+  
+    <br/>
+    &#127775; &#127775; &#127775;  &#127775;  &#127775; 
+
+    </div>
   </div>
     </Card.Text>
    
@@ -38,7 +48,16 @@ export default class Projects extends Component {
     <Card.Text>
     <img src="https://raw.githubusercontent.com/ngecu/Fun_Activity_App/master/preview.png" />
     <div class="overlay">
-    <div class="text">React JS</div>
+    <div class="text">
+    Sep, 2020
+    <br/>
+      <img src="https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg" alt=""/>
+      <br/>
+      State Mutation Concept
+      <br/>
+      &#127775; &#127775; &#127775;  &#127775;  &#127775; 
+
+      </div>
   </div>
     </Card.Text>
    
@@ -55,7 +74,16 @@ export default class Projects extends Component {
     <Card.Text>
             <img src="http://devngecu.herokuapp.com/images/mywebsite.png"/>
             <div class="overlay">
-    <div class="text">Django FrameWork</div>
+    <div class="text">
+      Aug, 2020 
+      <br/>
+      <img src="https://www.vectorlogo.zone/logos/djangoproject/djangoproject-icon.svg" alt=""/>
+      <br/>
+      Django Project
+      <br/>
+      &#127775; &#127775; &#127775;  &#127775;  &#127775; 
+
+    </div>
   </div>
     </Card.Text>
    
@@ -75,7 +103,16 @@ export default class Projects extends Component {
     <Card.Text>
         <img src="http://devngecu.herokuapp.com/images/dictionary_demo.jpg"/>
         <div class="overlay">
-    <div class="text">Vanilar JavaScript</div>
+    <div class="text">
+    Jul, 2020
+    
+    <br/>
+    <img src="https://www.vectorlogo.zone/logos/javascript/javascript-vertical.svg" alt=""/>
+  <br/>
+  Destructuring JSON Concept
+  <br/>
+  &#127775; &#127775; &#127775;  &#127775;  &#127775; 
+    </div>
   </div>
     </Card.Text>
    

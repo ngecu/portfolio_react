@@ -33,7 +33,6 @@
 .youtube{
     margin: 2% 2% 0 1%;
     padding: 2%;
-    border: solid white 0.5px;
     background-image: url('https://raw.githubusercontent.com/ngecu/ngecu/master/software_innovation1.gif');
     background-size: contain;
 }
