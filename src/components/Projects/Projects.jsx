@@ -129,7 +129,16 @@ export default class Projects extends Component {
     <Card.Text>
         <img src="https://bs-uploads.toptal.io/blackfish-uploads/blog/post/seo/og_image_file/og_image/15921/secure-rest-api-in-nodejs-18f43b3033c239da5d2525cfd9fdc98f.png"/>
         <div class="overlay">
-    <div class="text">JavaScript</div>
+    <div class="text">
+      Dec,2020
+      <br/>
+      <img src="https://www.vectorlogo.zone/logos/nodejs/nodejs-horizontal.svg" alt=""/>
+      <br/>
+      CRUD Operations on servers
+      <br/>
+      &#127775; &#127775; &#127775;  &#127775;  &#127775; 
+
+    </div>
   </div>
     </Card.Text>
    
@@ -146,7 +155,16 @@ export default class Projects extends Component {
     <Card.Text>
         <img src="https://raw.githubusercontent.com/ngecu/converter_currency/main/src/images/currencyCOnverter.png"/>
         <div class="overlay">
-    <div class="text">React</div>
+        <div class="text">
+    Dec, 2020
+    <br/>
+      <img src="https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg" alt=""/>
+      <br/>
+      State Mutation Concept
+      <br/>
+      &#127775; &#127775; &#127775;  &#127775;  &#127775; 
+
+      </div>
   </div>
     </Card.Text>
    
@@ -167,7 +185,16 @@ export default class Projects extends Component {
    <Card.Text>
    <img src="http://devngecu.herokuapp.com/images/advice.png" />
    <div class="overlay">
-    <div class="text">React</div>
+   <div class="text">
+    Sep, 2020
+    <br/>
+      <img src="https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg" alt=""/>
+      <br/>
+      State Mutation Concept
+      <br/>
+      &#127775; &#127775; &#127775;  &#127775;  &#127775; 
+
+      </div>
   </div>
    </Card.Text>
   

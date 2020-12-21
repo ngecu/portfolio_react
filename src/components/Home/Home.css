@@ -58,3 +58,6 @@ li a{
     justify-content: center;
     display: flex;
 }
+button a{
+    color: black;
+}
