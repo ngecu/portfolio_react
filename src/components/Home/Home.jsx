@@ -5,17 +5,11 @@ import axios from 'axios'
 import {Bar} from 'react-chartjs-2';
 import {AiFillGithub,AiFillInstagram,AiFillFacebook,AiFillTwitterCircle,AiFillMail,AiOutlineDownload} from 'react-icons/ai';
 import {FaLinkedinIn} from 'react-icons/fa';
-import FileSaver from 'file-saver';
-import pdf from './resume.pdf'
 
+import pdf from './resume.pdf'
+import me from '../../images/me.JPG'
 
 export default class Home extends Component {
-
-   saveFile = () => {
-    FileSaver.saveAs(
-      process.env.REACT_APP_CLIENT_URL + "/resources/resume.pdf",
-      "resume.pdf"
-    );}
 
   componentDidMount(){
     this.fetchAPI()

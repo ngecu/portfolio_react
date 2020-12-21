@@ -1,7 +1,15 @@
 import React, { Component } from 'react'
 import {Row,Col,Card,Button} from 'react-bootstrap';
 import './Projects.css';
-import logo from './schoolsystem.png'
+import advicepic from '../../images/advice.png';
+import covidpic from '../../images/covid19Dashborad.png';
+import currencyConverterpic from '../../images/currencyConverter.png';
+import Ecommercepic from '../../images/Ecommerce.png';
+import funcactivitypic from '../../images/funactivity.png';
+import mywebsitepic from '../../images/mywebsite.png';
+import schoolsystempic from '../../images/schoolsystem.png';
+import webdictionarypic from '../../images/webdictionary.jpg';
+
 export default class Projects extends Component {
     render() {
         return (
@@ -19,7 +27,7 @@ export default class Projects extends Component {
     <Card.Title>KENYA COVID 19 DASHBOARD</Card.Title>
     <Card.Text>
       
-    <img src="http://devngecu.herokuapp.com/images/covid19Dashborad.png" />
+    <img src={covidpic} />
     <div class="overlay">
     <div class="text">
       July, 2020 
@@ -46,7 +54,7 @@ export default class Projects extends Component {
   <Card.Body>
     <Card.Title>FUN ACTIVITY REACT APP</Card.Title>
     <Card.Text>
-    <img src="https://raw.githubusercontent.com/ngecu/Fun_Activity_App/master/preview.png" />
+    <img src={funcactivitypic} />
     <div class="overlay">
     <div class="text">
     Sep, 2020
@@ -72,7 +80,7 @@ export default class Projects extends Component {
   <Card.Body>
     <Card.Title>TUTORIALS WEB BLOG</Card.Title>
     <Card.Text>
-            <img src="http://devngecu.herokuapp.com/images/mywebsite.png"/>
+            <img src={mywebsitepic} />
             <div class="overlay">
     <div class="text">
       Aug, 2020 
@@ -101,7 +109,7 @@ export default class Projects extends Component {
   <Card.Body>
     <Card.Title>DICTIONARY WEB APP</Card.Title>
     <Card.Text>
-        <img src="http://devngecu.herokuapp.com/images/dictionary_demo.jpg"/>
+        <img src={webdictionarypic} />
         <div class="overlay">
     <div class="text">
     Jul, 2020
@@ -153,7 +161,7 @@ export default class Projects extends Component {
   <Card.Body>
     <Card.Title>CURRENCY CONVERTER(SC)</Card.Title>
     <Card.Text>
-        <img src="https://raw.githubusercontent.com/ngecu/converter_currency/main/src/images/currencyCOnverter.png"/>
+        <img src={currencyConverterpic}/>
         <div class="overlay">
         <div class="text">
     Dec, 2020
@@ -183,7 +191,7 @@ export default class Projects extends Component {
  <Card.Body>
    <Card.Title>API ADVICE W.APP</Card.Title>
    <Card.Text>
-   <img src="http://devngecu.herokuapp.com/images/advice.png" />
+   <img src={advicepic} />
    <div class="overlay">
    <div class="text">
     Sep, 2020
@@ -209,7 +217,7 @@ export default class Projects extends Component {
  <Card.Body>
    <Card.Title>E-COMMERCE SYS </Card.Title>
    <Card.Text>
-   <img src="https://raw.githubusercontent.com/ngecu/converter_currency/main/src/images/Ecommerce.png" alt="ecomeerce sys ui" />
+   <img src={Ecommercepic} alt="ecomeerce sys ui" />
    <div class="overlay">
     <div class="text">Django Framework</div>
   </div>
@@ -227,7 +235,7 @@ export default class Projects extends Component {
  <Card.Body>
    <Card.Title>SCHOOL SYSTEM </Card.Title>
    <Card.Text>
-           <img src={logo} alt="school sys ui" />
+           <img src={schoolsystempic} alt="school sys ui" />
            <div class="overlay">
     <div class="text">Django Framework</div>
   </div>

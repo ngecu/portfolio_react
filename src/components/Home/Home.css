@@ -13,7 +13,7 @@ p{
 }
 
 .img{
-    background-image: url('https://devngecu.herokuapp.com/static/main/img/DSC_1153.JPG');
+    background-image: url('../../images/me.JPG');
     background-size: cover;
     /* border-radius: 20%; */
     border-top-left-radius: 30%;
