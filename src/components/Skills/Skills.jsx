@@ -7,8 +7,8 @@ export default class Skills extends Component {
         return (
             <div className="skills">
                  <Row>
-                    <Col>
-                    <img src="https://github-readme-stats.vercel.app/api?username=ngecu&&show_icons=true&theme=radical" alt="Ngecu's Github Stats"/>
+                    <Col xs={12} md={4}>
+                    <img src="https://github-readme-stats.vercel.app/api?username=ngecu&&show_icons=true&theme=radical" className="w-100" alt="Ngecu's Github Stats"/>
 
                     </Col>
                     
@@ -131,7 +131,7 @@ export default class Skills extends Component {
                     <Col className="youtube">
                     
                     </Col>
-                    <Col>
+                    <Col xs={12} md={6}>
                     <p className="someProjects" >Experience</p>
                     <p>
                         Am currently the lead web developer at <a href="http://momonick.com/"> <span> MOMONICKS LIMITED </span> </a> and <a href="https://eventornado.com/event/eu-africa-the-post-crisis-journey#home">  <span>  hackathon </span> </a>

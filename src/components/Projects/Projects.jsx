@@ -20,7 +20,7 @@ export default class Projects extends Component {
 
                 <Row>
                    
-                    <Col>
+                    <Col xs={12} md={4}>
                     <a href="https://kenyacovid19.herokuapp.com/">
                     <Card className="text-center">
   <Card.Body>
@@ -48,7 +48,7 @@ export default class Projects extends Component {
 </a>
                     </Col>
 
-                    <Col>
+                    <Col xs={12} md={4}>
                     <a href="https://fun-activity.netlify.app/">
                     <Card className="text-center">
   <Card.Body>
@@ -74,7 +74,7 @@ export default class Projects extends Component {
 </a>
                     </Col>
 
-                    <Col>
+                    <Col xs={12} md={4}>
                     <a href="https://devngecu.herokuapp.com/">
                     <Card className="text-center">
   <Card.Body>
@@ -103,7 +103,7 @@ export default class Projects extends Component {
                     
                 </Row>
                 <Row>
-                    <Col>
+                    <Col xs={12} md={4}>
                     <a href="https://devngecudictionaryapp.netlify.app/">
                     <Card className="text-center">
   <Card.Body>
@@ -129,7 +129,7 @@ export default class Projects extends Component {
 </a>
                     </Col>   
 
-                    <Col>
+                    <Col xs={12} md={4}>
                     <a href="https://github.com/ngecu/NodeRESTAPIExample">
                     <Card className="text-center">
   <Card.Body>
@@ -155,7 +155,7 @@ export default class Projects extends Component {
 </a>
                     </Col>   
 
-                    <Col>
+                    <Col xs={12} md={4}>
                     <a href="https://github.com/ngecu/converter_currency">
                     <Card className="text-center">
   <Card.Body>
@@ -185,7 +185,7 @@ export default class Projects extends Component {
 
                 <Row>
                    
-                   <Col>
+                   <Col xs={12} md={4}>
                    <a href="https://devngecuadviceapp.netlify.app/">
                    <Card className="text-center">
  <Card.Body>
@@ -211,7 +211,7 @@ export default class Projects extends Component {
 </a>
                    </Col>
 
-                   <Col>
+                   <Col xs={12} md={4}>
                  
                    <Card className="text-center">
  <Card.Body>
@@ -229,7 +229,7 @@ export default class Projects extends Component {
 
                    </Col>
 
-                   <Col>
+                   <Col xs={12} md={4}>
                    
                    <Card className="text-center">
  <Card.Body>

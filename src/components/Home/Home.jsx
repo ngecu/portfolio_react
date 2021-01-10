@@ -35,10 +35,10 @@ axios.get('https://covid19.mathdro.id/api')
     return (
        <div>
         <Row>
-    <Col sm  className="img">
+    <Col xs={0} md={6}  className="img">
     
     </Col>
-          <Col sm className="col2">
+          <Col xs={12} md={6} className="col2">
               <Row>
               <p>
           Hey there! <img src="https://raw.githubusercontent.com/ngecu/ngecu/master/hi.gif" width="40" alt=""/> My name is <span>Robinson Ngecu</span> from the great mother land of Kenya.&#128521;I am a Web Developer currently learning JavaScript and Python.I post videos on 
